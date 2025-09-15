@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>CS2 Skins Marktplatz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+      background: #fafafb;
+      color: #222;
+    }
+    header {
+      background: #fff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 0.05em;
+    }
+    nav a {
+      margin-left: 2rem;
+      color: #222;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #06c; }
+    main { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+    .skin-list {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;
+    }
+    .skin-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+      padding: 1rem;
+      display: flex; flex-direction: column; align-items: center;
+      transition: box-shadow 0.2s;
+    }
+    .skin-card:hover { box-shadow: 0 6px 28px rgba(0,0,0,0.07); }
+    .skin-img { width: 80%; height: 160px; object-fit: contain; margin-bottom: 1rem; border-radius: 12px;}
+    .skin-name { font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600; }
+    .skin-price { font-size: 1.1rem; color: #06c; margin-bottom: 1.2rem; font-weight: 400; }
+    .buy-btn {
+      background: linear-gradient(90deg,#007aff, #5ac8fa);
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border: none; border-radius: 10px;
+      font-size: 1rem; cursor: pointer;
+      font-weight: 600; outline: none;
+      transition: background 0.2s;
+    }
+    .buy-btn:hover { background: linear-gradient(90deg,#5ac8fa, #007aff);}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CS2 Market</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Favoriten</a>
+      <a href="#">Support</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Aktuelle CS2 Skin Preise</h1>
+    <div class="skin-list">
+      <div class="skin-card">
+        <img class="skin-img" src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/ak47-elite-build.png" alt="AK-47 Elite Build" />
+        <div class="skin-name">AK-47 | Elite Build</div>
+        <div class="skin-price">8,00 €</div>
+        <button class="buy-btn">Kaufen</button>
+      </div>
+      <div class="skin-card">
+        <img class="skin-img" src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/awp-atheris.png" alt="AWP Atheris" />
+        <div class="skin-name">AWP | Atheris</div>
+        <div class="skin-price">9,50 €</div>
+        <button class="buy-btn">Kaufen</button>
+      </div>
+      <div class="skin-card">
+        <img class="skin-img" src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/usp-s-cortex.png" alt="USP-S Cortex" />
+        <div class="skin-name">USP-S | Cortex</div>
+        <div class="skin-price">5,50 €</div>
+        <button class="buy-btn">Kaufen</button>
+      </div>
+      <div class="skin-card">
+        <img class="skin-img" src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/ak47-fire-serpent.png" alt="AK-47 Fire Serpent" />
+        <div class="skin-name">AK-47 | Fire Serpent</div>
+        <div class="skin-price">550,00 €</div>
+        <button class="buy-btn">Kaufen</button>
+      </div>
+      <div class="skin-card">
+        <img class="skin-img" src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/awp-dragon-lore.png" alt="AWP Dragon Lore" />
+        <div class="skin-name">AWP | Dragon Lore</div>
+        <div class="skin-price">1.900,00 €</div>
+        <button class="buy-btn">Kaufen</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
