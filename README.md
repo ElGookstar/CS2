@@ -1,7 +1,7 @@
 # The Easy Way
 https://public-6eykk0m24-elgookstars-projects.vercel.app/
 
-#Or
+# Or
 
 # CS2 Skins Marktplatz
 
