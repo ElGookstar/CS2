@@ -1,3 +1,8 @@
+# The Easy Way
+https://public-6eykk0m24-elgookstars-projects.vercel.app/
+
+#Or
+
 # CS2 Skins Marktplatz
 
 Eine minimalistische Node.js Webanwendung zur Anzeige aktueller CS2 Skin-Preise, gestaltet im Stil von Apple, basierend auf Express und HTML.
