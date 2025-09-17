@@ -1,5 +1,5 @@
 # The Easy Way
-public-9hoxn7hzv-elgookstars-projects.vercel.app
+public-nu-two.vercel.app
 
 # Or
 
