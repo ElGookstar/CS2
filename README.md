@@ -1,5 +1,5 @@
 # The Easy Way
-https://public-6eykk0m24-elgookstars-projects.vercel.app/
+public-9hoxn7hzv-elgookstars-projects.vercel.app
 
 # Or
 
