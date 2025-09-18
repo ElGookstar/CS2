@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Datenschutzerklärung - CS2 Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'San Francisco', 'Helvetica Neue', Arial, sans-serif;
+      background: #fafafb;
+      color: #222;
+      transition: background 0.3s, color 0.3s;
+      line-height: 1.6;
+    }
+    body.dark-mode {
+      background: #121212;
+      color: #e0e0e0;
+    }
+    header {
+      background: #fff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex; justify-content: space-between; align-items: center;
+      transition: background 0.3s;
+    }
+    body.dark-mode header {
+      background: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 2rem;
+      color: #222;
+    }
+    body.dark-mode .logo { color: #fff; }
+    nav a {
+      margin-left: 2rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #222;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: #06c; }
+    body.dark-mode nav a { color: #e0e0e0; }
+    body.dark-mode nav a:hover { color: #66aaff; }
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2, h3 {
+      margin-top: 1.5rem;
+      color: #222;
+    }
+    body.dark-mode h1, 
+    body.dark-mode h2, 
+    body.dark-mode h3 { color: #cfd8dc; }
+    footer {
+      background:#222;
+      color:#ccc;
+      padding:1rem;
+      text-align:center;
+      margin-top: 2rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+    body.dark-mode footer { background: #1e1e1e; }
+    a { color:#06c; }
+    body.dark-mode a { color:#66aaff; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CS2 Market</div>
+    <nav>
+      <a href="index.html">Startseite</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+    <button id="darkModeToggle" aria-label="Dark Mode umschalten" style="margin-left:20px; padding:6px 12px; cursor:pointer;">
+      Dunkelmodus
+    </button>
+  </header>
+
+  <main>
+    <h1>Datenschutzerklärung</h1>
+
+    <h2>1. Allgemeine Hinweise</h2>
+    <p>Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Vorschriften der DSGVO sowie dieser Datenschutzerklärung.</p>
+
+    <h2>2. Verantwortliche Stelle</h2>
+    <p><strong>CS2 Market<br>
+    Herr der Ringe GmbH<br>
+    Elrond von Bruchtal<br>
+    Mittelerde, Tal von Bruchtal<br>
+    E-Mail: elrond@bruchtal.me</strong></p>
+
+    <h2>3. Erhebung und Speicherung personenbezogener Daten</h2>
+    <p>Wir erheben und speichern personenbezogene Daten nur insoweit, als dies für den Betrieb unserer Website notwendig ist. Hierzu zählen u.a.:</p>
+    <ul>
+      <li>IP-Adresse</li>
+      <li>Browser-Typ und -Version</li>
+      <li>Besuchte Seiten</li>
+      <li>Datum und Uhrzeit des Zugriffs</li>
+    </ul>
+
+    <h2>4. Cookies</h2>
+    <p>Unsere Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden und die eine Analyse der Benutzung unserer Website ermöglichen. Sie können die Speicherung von Cookies in den Einstellungen Ihres Browsers deaktivieren.</p>
+
+    <h2>5. Ihre Rechte</h2>
+    <p>Sie haben jederzeit das Recht auf:</p>
+    <ul>
+      <li>Auskunft über Ihre bei uns gespeicherten Daten</li>
+      <li>Berichtigung unrichtiger Daten</li>
+      <li>Löschung gespeicherter Daten</li>
+      <li>Einschränkung der Verarbeitung</li>
+      <li>Datenübertragbarkeit</li>
+      <li>Widerspruch gegen die Verarbeitung</li>
+    </ul>
+
+    <h2>6. Kontakt</h2>
+    <p>Wenn Sie Fragen zum Datenschutz haben, wenden Sie sich bitte an: <a href="mailto:elrond@bruchtal.me">elrond@bruchtal.me</a></p>
+
+    <h3>Stand: September 2025</h3>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Herr der Ringe GmbH – Alle Rechte vorbehalten.</p>
+    <p><a href="index.html">Zurück zur Startseite</a></p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>

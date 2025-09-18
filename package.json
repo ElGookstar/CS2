@@ -1,16 +1,17 @@
 {
   "name": "cs2-skins",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node app.js",
-  "build": "echo 'Kein Build erforderlich'"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "echo 'Kein Build erforderlich'"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
-  },
-  "description": ""
+  }
 }
